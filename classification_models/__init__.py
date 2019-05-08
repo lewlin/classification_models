@@ -2,8 +2,8 @@ from .__version__ import __version__
 
 from . import resnet as rn
 from . import senet as sn
-from . import keras_applications as ka
-
+#from . import keras_applications as ka
+import keras_applications as ka
 
 __all__ = ['__version__', 'Classifiers']
 
